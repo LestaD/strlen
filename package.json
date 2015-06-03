@@ -1,6 +1,6 @@
 {
   "name": "strlen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get length of string after strlen",
   "main": "strlen.js",
   "scripts": {
