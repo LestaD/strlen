@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // The MIT License (MIT)
 
 // Copyright (c) 2015 LestaD (Sergey Sova) <i.am@lestad.net>
@@ -20,3 +22,28 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+process.stdin.resume();
+process.stdin.setEncoding('utf8');
+
+function end(c) {
+  console.log(c);
+  process.exit(0);
+}
+
+var list = process.argv.splice(2);
+var word = list.join(' ');
+
+if (word.length === 0) {
+  // Read from pipe
+  var total = 0;
+  process.stdin.on('data', function(chunk){
+    total += chunk.length;
+  });
+  process.stdin.on('end', function(){
+    end(total-1);
+  });
+}
+else {
+  // Show length from command line arguments
+  end(word.length);
+}
