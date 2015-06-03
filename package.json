@@ -2,7 +2,7 @@
   "name": "strlen",
   "version": "1.0.0",
   "description": "Get length of string after strlen",
-  "main": "index.js",
+  "main": "strlen.js",
   "scripts": {
     "test": "node test.js"
   },
@@ -14,7 +14,7 @@
     "node": ">=0.10"
   },
   "bin": {
-    "strlen": "index.js"
+    "strlen": "strlen.js"
   },
   "keywords": [
     "string",
