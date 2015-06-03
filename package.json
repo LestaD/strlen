@@ -1,0 +1,27 @@
+{
+  "name": "strlen",
+  "version": "1.0.0",
+  "description": "Get length of string after strlen",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LestaD/strlen.git"
+  },
+  "keywords": [
+    "string",
+    "length",
+    "strlen",
+    "command",
+    "linux",
+    "mac"
+  ],
+  "author": "LestaD <i.am@lestad.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LestaD/strlen/issues"
+  },
+  "homepage": "https://github.com/LestaD/strlen#readme"
+}
