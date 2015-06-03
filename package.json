@@ -1,6 +1,6 @@
 {
   "name": "strlen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get length of string after strlen",
   "main": "strlen.js",
   "scripts": {
@@ -29,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/LestaD/strlen/issues"
   },
-  "homepage": "https://github.com/LestaD/strlen#readme"
+  "homepage": "https://github.com/LestaD/strlen#usage",
+  "readme": "README.md"
 }
