@@ -1,4 +1,7 @@
 # strlen
+
+[![NPM](https://nodei.co/npm/strlen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/strlen/)
+
 Command line tool for counting characters
 
 # Usage
