@@ -5,6 +5,8 @@
  ![Mocha Testing](https://img.shields.io/badge/build-passing-brightgreen.svg)
  ![Dependencies](https://david-dm.org/lestad/strlen.svg)
  ![npm version](https://badge.fury.io/js/strlen.svg)
+ [![Code Climate](https://codeclimate.com/github/LestaD/strlen/badges/gpa.svg)](https://codeclimate.com/github/LestaD/strlen)
+ 
  
 Command line tool for counting characters
 
