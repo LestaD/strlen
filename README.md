@@ -6,6 +6,7 @@
  ![Dependencies](https://david-dm.org/lestad/strlen.svg)
  ![npm version](https://badge.fury.io/js/strlen.svg)
  [![Code Climate](https://codeclimate.com/github/LestaD/strlen/badges/gpa.svg)](https://codeclimate.com/github/LestaD/strlen)
+ ![GitHub tag](https://img.shields.io/github/tag/lestad/strlen.svg)
  
  
 Command line tool for counting characters
